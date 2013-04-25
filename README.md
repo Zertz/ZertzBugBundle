@@ -12,7 +12,7 @@ developers.
 - Custom types
 
 ### Upcoming features
-- ?
+- Comments
 
 1) Requirements
 ----------------------------------
