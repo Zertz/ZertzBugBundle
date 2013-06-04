@@ -9,12 +9,11 @@
         {
             "name": "Pier-Luc Gendreau",
             "email": "pierluc.gendreau@gmail.com",
-            "homepage": "http://coming.soon",
-            "role": "Developer"
+            "homepage": "http://zertz.ca"
         }
     ],
     "require": {
-        "symfony/symfony": "2.2.*",
+        "symfony/symfony": ">=2.2",
         "sonata-project/admin-bundle": "dev-master"
     },
     "autoload": {
