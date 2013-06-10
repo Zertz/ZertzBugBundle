@@ -8,7 +8,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 /**
  * Bug
  *
- * @ORM\Table(name="zerrtz_bug__issues")
+ * @ORM\Table(name="zertz_bug__issues")
  * @ORM\Entity
  */
 class Bug
