@@ -8,7 +8,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 /**
  * Bug
  *
- * @ORM\Table(name="Bug")
+ * @ORM\Table(name="zerrtz_bug__issues")
  * @ORM\Entity
  */
 class Bug
@@ -79,7 +79,7 @@ class Bug
      * Set type
      *
      * @param string $type
-     * @return Bug
+     * @return self
      */
     public function setType($type)
     {
@@ -102,7 +102,7 @@ class Bug
      * Set problem
      *
      * @param string $nom
-     * @return Bug
+     * @return self
      */
     public function setProblem($problem)
     {
@@ -125,7 +125,7 @@ class Bug
      * Set description
      *
      * @param string $description
-     * @return Bug
+     * @return self
      */
     public function setDescription($description)
     {
@@ -148,7 +148,7 @@ class Bug
      * Set fixed
      *
      * @param string $fixed
-     * @return Bug
+     * @return self
      */
     public function setFixed($fixed)
     {

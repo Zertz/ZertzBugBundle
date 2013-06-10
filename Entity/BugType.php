@@ -6,9 +6,9 @@ use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
- * Bug
+ * BugType
  *
- * @ORM\Table(name="BugType")
+ * @ORM\Table(name="zertz_bug__type")
  * @ORM\Entity
  */
 class BugType
@@ -45,7 +45,7 @@ class BugType
      * Set type
      *
      * @param string $type
-     * @return Bug
+     * @return self
      */
     public function setType($type)
     {
