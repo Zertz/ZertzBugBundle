@@ -9,7 +9,6 @@ use Sonata\AdminBundle\Form\FormMapper;
 
 class BugAdmin extends Admin
 {
-    // Sort list
     protected $datagridValues = array(
         '_page'       => 1,
         '_sort_order' => 'ASC',
@@ -19,7 +18,7 @@ class BugAdmin extends Admin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('type')
+            ->add('type', 'sonata_type_model')
             ->add('problem')
             ->add('description', 'textarea', array(
                 'attr' => array(
